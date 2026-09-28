@@ -1,0 +1,45 @@
+body {
+  background-color: linen;
+}
+
+.box {
+  background-color: lightcyan;
+  border: 2px solid lightseagreen;
+  padding: 0.42em;
+  margin: 0.42em 0;
+}
+
+.box:hover {
+  background-color: darkblue;
+  color: whitesmoke;
+}
+
+.box:nth-child(2n) {
+  background-color: lightblue;
+  border: 2px dashed lightslategrey;
+}
+
+.box:nth-child(2n):hover {
+  background-color: darkred;
+}
+
+.github-link {
+  padding: 1em;
+}
+
+a {
+  text-decoration: none;
+  background-color: whitesmoke;
+  padding: 1em;
+  border-radius: 8px;
+}
+
+a:hover {
+  color: darkred;
+  background-color: darkorange;
+}
+
+.head-box,
+.contacts {
+  text-align: center;
+}
